@@ -1,5 +1,5 @@
 <?php
 echo "validated user";
 
-echo "development team";
+echo "demo by development team";
 ?>
