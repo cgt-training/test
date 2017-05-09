@@ -1,0 +1,784 @@
+@font-face {
+    font-family: 'GothamBold';
+    src: url("../fonts/GothamBold.eot");
+    src: url("../fonts/GothamBold.eot") format("embedded-opentype"), url("../fonts/GothamBold.woff2") format("woff2"), url("../fonts/GothamBold.woff") format("woff"), url("../fonts/GothamBold.ttf") format("truetype"), url("../fonts/GothamBold.svg#GothamBold") format("svg")
+}
+@font-face {
+    font-family: 'GothamBook';
+    src: url("../fonts/GothamBook.eot");
+    src: url("../fonts/GothamBook.eot") format("embedded-opentype"), url("../fonts/GothamBook.woff2") format("woff2"), url("../fonts/GothamBook.woff") format("woff"), url("../fonts/GothamBook.ttf") format("truetype"), url("../fonts/GothamBook.svg#GothamBook") format("svg")
+}
+@font-face {
+    font-family: 'GothamLight';
+    src: url("../fonts/GothamLight.eot");
+    src: url("../fonts/GothamLight.eot") format("embedded-opentype"), url("../fonts/GothamLight.woff2") format("woff2"), url("../fonts/GothamLight.woff") format("woff"), url("../fonts/GothamLight.ttf") format("truetype"), url("../fonts/GothamLight.svg#GothamLight") format("svg")
+}
+@font-face {
+    font-family: 'GothamMedium';
+    src: url("../fonts/GothamMedium.eot");
+    src: url("../fonts/GothamMedium.eot") format("embedded-opentype"), url("../fonts/GothamMedium.woff2") format("woff2"), url("../fonts/GothamMedium.woff") format("woff"), url("../fonts/GothamMedium.ttf") format("truetype"), url("../fonts/GothamMedium.svg#GothamMedium") format("svg")
+}
+.navbar-right-top-margin {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.navbar {
+    margin-bottom: 0px !important
+}
+.navbar-default {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important
+}
+.nav>li>a {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'GothamMedium';
+    font-size: 13px;
+    color: #000000
+}
+.btn-log-in {
+    background-color: #00adee;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: 'GothamMedium';
+    padding: 6px 20px
+}
+.btn-register {
+    background-color: #8dc63f;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'GothamMedium';
+    padding: 6px 20px
+}
+.banner-img {
+    float: left;
+    width: 100%;
+    background: url("../img/banner.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.banner-content {
+    width: 100%;
+    margin-top: 75px
+}
+.banner-left-main {
+    margin-top: 75px
+}
+.banner-left-get-serious {
+    font-family: 'GothamMedium';
+    font-size: 44px;
+    color: #ffffff
+}
+.banner-left-start-free {
+    font-family: 'GothamBook';
+    width: 550px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #ffffff
+}
+.btn-sign-up-social {
+    background-color: #167cd8;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'GothamBold';
+    padding: 15px 20px;
+    width: 290px;
+    margin-top: 25px
+}
+.btn-banner-log-in {
+    background-color: #f1f1f1;
+    color: #666666;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'GothamBold';
+    padding: 15px 20px;
+    text-align: center;
+    width: 290px;
+    margin-top: 25px
+}
+.connect-with-social {
+    width: 100%
+}
+.connect-with-social-twitter {
+    background-color: #23b0e6;
+    height: 120px
+}
+.connect-with-social-twitter-main {
+    width: 100%
+}
+.connect-with-social-twitter-connect {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+    font-family: 'GothamLight';
+    font-size: 30px;
+    color: #ffffff
+}
+.connect-with-social-in {
+    background-color: #0084b9;
+    height: 120px
+}
+.content-section {
+    width: 100%;
+    float: left;
+    padding: 70px 0
+}
+.content-upper {
+    width: 100%;
+    font-family: 'GothamMedium';
+    font-size: 30px;
+    color: #000000;
+    text-align: center
+}
+.content-main {
+    width: 100%;
+    margin-top: 75px
+}
+.engagement-main {
+    width: 100%;
+    float: left
+}
+.engagement-main-left {
+    width: 12%;
+    float: left
+}
+.engagement-main-right {
+    width: 88%;
+    float: left
+}
+.engagement-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 20px
+}
+.engagement-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 10px;
+    line-height: 25px
+}
+.light-blue-span {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #167cd8
+}
+.analytics-main {
+    width: 100%;
+    float: left;
+    margin-top: 75px
+}
+.analytics-main-left {
+    width: 12%;
+    float: left
+}
+.analytics-main-right {
+    width: 88%;
+    float: left
+}
+.analytics-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 26px
+}
+.analytics-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 7px;
+    line-height: 25px
+}
+.connected-main {
+    width: 100%;
+    float: left;
+    margin-top: 75px
+}
+.connected-main-left {
+    width: 12%;
+    float: left
+}
+.connected-main-right {
+    width: 88%;
+    float: left
+}
+.connected-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 26px
+}
+.connected-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 7px;
+    line-height: 25px
+}
+.listening-main {
+    width: 100%;
+    float: left
+}
+.listening-main-left {
+    width: 12%;
+    float: left
+}
+.listening-main-right {
+    width: 88%;
+    float: left
+}
+.listening-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 20px
+}
+.listening-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 10px;
+    line-height: 25px
+}
+.collaboration-main {
+    width: 100%;
+    float: left;
+    margin-top: 75px
+}
+.collaboration-main-left {
+    width: 12%;
+    float: left
+}
+.collaboration-main-right {
+    width: 88%;
+    float: left
+}
+.collaboration-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 26px
+}
+.collaboration-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 7px;
+    line-height: 25px
+}
+.share-main {
+    width: 100%;
+    float: left;
+    margin-top: 75px
+}
+.share-main-left {
+    width: 12%;
+    float: left
+}
+.share-main-right {
+    width: 88%;
+    float: left
+}
+.share-main-right-engage {
+    font-family: 'GothamMedium';
+    font-size: 22px;
+    color: #4f667d;
+    line-height: 26px
+}
+.share-main-right-content {
+    font-family: 'GothamLight';
+    font-size: 15px;
+    color: #444d5b;
+    margin-top: 7px;
+    line-height: 25px
+}
+.quick-start-section {
+    float: left;
+    width: 100%;
+    background-color: #167cd8;
+    height: 145px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.quick-start-left {
+    float: left;
+    width: 19%;
+    font-family: 'GothamLight';
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 35px
+}
+.quick-start-right {
+    float: left;
+    width: 81%
+}
+.quick-start-right-login {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-start-right-explore {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-start-right-share {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-start-right-login-inner {
+    width: 100%;
+    background: url("../img/whitediv.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    padding: 15px
+}
+.quick-login-inner-one {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 85px;
+    font-family: 'GothamLight';
+    font-size: 65px;
+    color: #167cd8
+}
+.quick-login-inner-content {
+    float: left;
+    width: 70%
+}
+.quick-login-inner-content-upper {
+    font-family: 'GothamMedium';
+    font-size: 16px;
+    color: #167cd8
+}
+.quick-login-inner-content-lower {
+    font-family: 'GothamLight';
+    font-size: 13px;
+    color: #444d5b;
+    line-height: 16px
+}
+.quick-start-right-explore-inner {
+    width: 100%;
+    background: url("../img/bluediv.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    padding: 15px 20px
+}
+.quick-explore-inner-two {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-family: 'GothamLight';
+    font-size: 65px;
+    color: #ffffff;
+    line-height: 85px
+}
+.quick-explore-inner-content {
+    float: left;
+    width: 70%
+}
+.quick-explore-inner-content-upper {
+    font-family: 'GothamMedium';
+    font-size: 16px;
+    color: #ffffff
+}
+.quick-explore-inner-content-lower {
+    font-family: 'GothamLight';
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 16px
+}
+.quick-start-right-share-inner {
+    width: 100%;
+    background: url("../img/bluediv.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    padding: 15px 20px
+}
+.quick-share-inner-three {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-family: 'GothamLight';
+    font-size: 65px;
+    color: #ffffff;
+    line-height: 85px
+}
+.quick-share-inner-content {
+    float: left;
+    width: 70%
+}
+.quick-share-inner-content-upper {
+    font-family: 'GothamMedium';
+    font-size: 16px;
+    color: #ffffff
+}
+.quick-share-inner-content-lower {
+    font-family: 'GothamLight';
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 16px
+}
+.quick-links-section {
+    float: left;
+    width: 100%
+}
+.quick-links-content {
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.quick-links-left-logo-img {
+    width: 150px
+}
+.quick-links-left-middle {
+    font-family: 'GothamLight';
+    font-size: 13px;
+    color: #444d5b;
+    margin-top: 20px
+}
+.quick-links-left-link {
+    font-family: 'GothamLight';
+    font-size: 13px;
+    color: #167cd8;
+    margin-top: 20px
+}
+.quick-links-left-main {
+    padding-left: 0px !important
+}
+.quick-links-right-menu-inner {
+    float: left;
+    width: 430px
+}
+.quick-links-right-menu-heading {
+    float: left;
+    width: 100%;
+    border-bottom: 2px #167cd8 solid;
+    padding-bottom: 5px;
+    font-family: 'GothamMedium';
+    font-size: 16px;
+    color: #167cd8
+}
+.quick-links-right-menu-ul-main {
+    float: left;
+    width: 100%;
+    margin-top: 10px
+}
+.quick-links-right-menu-ul-first {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-links-right-menu-ul-first>ul {
+    list-style: none;
+    padding-left: 0px !important
+}
+.quick-links-right-menu-ul-second {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-links-right-menu-ul-second>ul {
+    list-style: none;
+    padding-left: 0px !important
+}
+.quick-links-right-menu-ul-third {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+.quick-links-right-menu-ul-third>ul {
+    list-style: none;
+    padding-left: 0px !important
+}
+.quick-links-right-menu-ul-first>ul>li a {
+    font-family: 'GothamMedium';
+    font-size: 14px;
+    color: #2e333b
+}
+.quick-links-right-menu-ul-second>ul>li a {
+    font-family: 'GothamMedium';
+    font-size: 14px;
+    color: #2e333b
+}
+.quick-links-right-menu-ul-third>ul>li a {
+    font-family: 'GothamMedium';
+    font-size: 14px;
+    color: #2e333b
+}
+.quick-links-right-social-images {
+    float: left;
+    width: 100%;
+    margin-top: 40px
+}
+.footer-section {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.footer-div {
+    font-family: 'GothamBook';
+    font-size: 16px;
+    color: #000000
+}
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        padding: 0px 15px !important
+    }
+    .logo-img {
+        height: 50px
+    }
+    .banner-content {
+        margin-top: 5px;
+        text-align: center
+    }
+    .grp-image {
+        display: inline-block
+    }
+    .banner-left-main {
+        margin-top: 5px
+    }
+    .banner-left-get-serious {
+        font-size: 30px
+    }
+    .banner-left-start-free {
+        font-size: 14px;
+        line-height: 30px;
+        width: auto
+    }
+    .btn-sign-up-social {
+        margin-top: 5px
+    }
+    .btn-banner-log-in {
+        margin-top: 10px
+    }
+    .banner-img {
+        height: 770px
+    }
+    .banner-right-main {
+        margin-top: 15px;
+        text-align: center
+    }
+    .connect-with-social-twitter {
+        padding-top: 35px;
+        text-align: center
+    }
+    .connect-with-social-in {
+        padding-top: 35px;
+        text-align: center
+    }
+    .connect-with-social-twitter-connect {
+        position: static;
+        font-family: 'GothamLight';
+        font-size: 30px;
+        color: #ffffff
+    }
+    .content-upper {
+        font-size: 20px
+    }
+    .content-main-left-padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .content-main-right-padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .listening-main {
+        margin-top: 75px
+    }
+    .quick-start-section {
+        height: auto
+    }
+    .quick-start-left {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        text-align: center
+    }
+    .quick-start-right {
+        width: 100%
+    }
+    .quick-start-right-login {
+        margin-top: 10px;
+        text-align: center
+    }
+    .quick-start-right-explore {
+        margin-top: 10px;
+        text-align: center
+    }
+    .quick-start-right-share {
+        margin-top: 10px;
+        text-align: center
+    }
+    .quick-links-right-menu-inner {
+        width: 100%
+    }
+    .quick-links-left-logo {
+        float: left;
+        text-align: center;
+        width: 100%
+    }
+    .quick-links-left-main {
+        padding-left: 15px !important
+    }
+    .quick-links-left-middle {
+        float: left;
+        width: 100%
+    }
+    .quick-links-left-link {
+        float: left
+    }
+    .quick-links-right-main {
+        float: left;
+        margin-top: 20px
+    }
+    .quick-links-right-social-images {
+        text-align: center
+    }
+    .quick-start-right-login-inner {
+        width: 320px;
+        display: inline-block
+    }
+    .quick-start-right-explore-inner {
+        width: 320px;
+        display: inline-block
+    }
+    .quick-start-right-share-inner {
+        width: 320px;
+        display: inline-block
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-form-login {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .logo-img {
+        width: 100px
+    }
+    .nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .navbar-right-top-margin {
+        margin-bottom: 6px;
+        margin-top: 6px
+    }
+    .banner-left-start-free {
+        width: 100%
+    }
+    .connect-with-social-twitter-connect {
+        right: 50px
+    }
+    .content-main-left-padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .content-main-right-padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .engagement-main-left {
+        width: 10%
+    }
+    .engagement-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .analytics-main-left {
+        width: 10%
+    }
+    .analytics-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .connected-main-left {
+        width: 10%
+    }
+    .connected-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .listening-main-left {
+        width: 10%
+    }
+    .listening-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .collaboration-main-left {
+        width: 10%
+    }
+    .collaboration-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .share-main-left {
+        width: 10%
+    }
+    .share-main-right {
+        width: 85%;
+        margin-left: 3%
+    }
+    .quick-start-right {
+        margin-top: 20px
+    }
+    .quick-start-section {
+        height: auto
+    }
+    .quick-start-right-login {
+        text-align: center
+    }
+    .quick-start-right-explore {
+        text-align: center
+    }
+    .quick-start-right-share {
+        text-align: center
+    }
+    .quick-start-right-login-inner {
+        width: 100%;
+        display: inline-block
+    }
+    .quick-start-right-explore-inner {
+        width: 100%;
+        display: inline-block
+    }
+    .quick-start-right-share-inner {
+        width: 100%;
+        display: inline-block
+    }
+    .quick-links-left-main {
+        padding-left: 15px !important
+    }
+    .quick-links-right-menu-main {
+        padding-left: 0px !important
+    }
+    .quick-links-right-menu-inner {
+        width: 100%
+    }
+    .quick-links-right-main {
+        margin-top: 20px;
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+    .quick-links-right-social {
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+}
+
+.my-navbar{
+	background-color: #fff !important;
+	position: relative !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */
